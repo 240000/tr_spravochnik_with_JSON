@@ -1,0 +1,43 @@
+{
+    "base_requests": [
+        {
+            "type": "Bus",
+            "name": "114",
+            "stops": [
+                "Morskoy vokzal",
+                "Riv'erskiy most"
+            ],
+            "is_roundtrip": false
+        },
+        {
+            "type": "Stop",
+            "name": "Riv'erskiy most",
+            "latitude": 43.587795,
+            "longitude": 39.716901,
+            "road_distances": {
+                "Morskoy vokzal": 850
+            }
+        },
+        {
+            "type": "Stop",
+            "name": "Morskoy vokzal",
+            "latitude": 43.581969,
+            "longitude": 39.719848,
+            "road_distances": {
+                "Riv'erskiy most": 850
+            }
+        }
+    ],
+    "stat_requests": [
+        {
+            "id": 529590956,
+            "type": "Stop",
+            "name": "Riv'erskiy most"
+        },
+        {
+            "id": 1247173979,
+            "type": "Bus",
+            "name": "114"
+        }
+    ]
+}

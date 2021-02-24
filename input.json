@@ -1,0 +1,28 @@
+{
+  "base_requests": [
+    {
+      "type": "Bus",
+      "name": "114",
+      "stops": ["Vokzal 1", "Most 1"],
+      "is_roundtrip": false
+    },
+    {
+      "type": "Stop",
+      "name": "Most 1",
+      "latitude": 43.587795,
+      "longitude": 39.716901,
+      "road_distances": {"Vokzal 1": 850}
+    },
+    {
+      "type": "Stop",
+      "name": "Vokzal 1",
+      "latitude": 43.581969,
+      "longitude": 39.719848,
+      "road_distances": {"Most 1": 850}
+    }
+  ],
+  "stat_requests": [
+    { "id": 1, "type": "Stop", "name": "Most 1" },
+    { "id": 2, "type": "Bus", "name": "114" }
+  ]
+}
